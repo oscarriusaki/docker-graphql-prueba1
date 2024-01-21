@@ -28,6 +28,7 @@ jobs:
     - name: Build Docker Image
       run: |
         docker build -t oscarl12/docker-graphql-prueba1:0.0.2 .
+        docker build -t oscarl12/docker-graphql-prueba1 .
 
     - name: Push Docker Image
       run: |
