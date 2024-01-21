@@ -32,6 +32,7 @@ jobs:
     - name: Push Docker Image
       run: |
         docker push oscarl12/docker-graphql-prueba1:0.0.2
+        docker push oscarl12/docker-graphql-prueba1
         
         
       
